@@ -1,14 +1,19 @@
 *****************Dataset Description — Multimodal Pedagogical Recommendation System*************************
  **Overview**
+ 
 This project uses the public OULAD (Open University Learning Analytics Dataset) to train and evaluate a system for predicting academic risk
 and generating personalized pedagogical recommendations. The data has been enriched with a synthetically generated 
 multilingual text corpus (French/Arabic) to simulate forum exchanges, enabling bimodal modeling of learners.
 
 **📊 Source Data**
+
 Attribute	Description
 Name	OULAD (Open University Learning Analytics Dataset)
+
 Publication	(https://www.nature.com/articles/sdata2017171?utm_source=researchgate.net&utm_medium=article)
+
 Kaggle	   https://www.kaggle.com/datasets/anlgrbz/student-demographics-online-education-dataoulad
+
 License	Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 
@@ -75,7 +80,9 @@ Each student is represented by a bimodal vector:
 Modality	Dimension	Source
 Behavioral (LSTM)	32	BiLSTM output on 30‑day sequences
 Textual (Affective)	775	768 (XLM‑R) + 7 numerical features
+
 **csv textual link** :  (https://drive.google.com/drive/folders/1yqiq1thnu2hZv58lwoowxfnN-GsnrSq0?usp=sharing)
+
 📌 License & Usage
 OULAD is distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 
